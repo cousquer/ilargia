@@ -43,7 +43,7 @@ html {
    transform-origin: 239.5px 239.5px 0px !important; 
 
 }
-a[href="#"] {
+.o-profile #founder {
   color: var(--color_ink2) !important;
   text-decoration: none !important;
   cursor: text !important;
