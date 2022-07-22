@@ -44,9 +44,9 @@ html {
 
 }
 a[href="#"] {
-  color: var(--color_ink2);
-  text-decoration: none;
-  cursor: text;
+  color: var(--color_ink2) !important;
+  text-decoration: none !important;
+  cursor: text !important;
 }
 
 .alpha-container {
