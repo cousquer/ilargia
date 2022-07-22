@@ -157,7 +157,7 @@ p {
 }
 @media screen and (min-width: 40.625rem) {
   p {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 }
 p:last-child {
@@ -200,6 +200,10 @@ p:last-child {
   margin-top: -1.8rem;
   background-color: var(--color_mag);
   color: var(--color_ink);
+}
+
+.c-heading--01 abbr {
+  text-transform: initial;
 }
 @media screen and (min-width: 32.5rem) {
   .c-heading--01 {
@@ -400,6 +404,15 @@ abbr[data-title]:hover:after, abbr[data-title]:focus:after {
 .o-profile {
   position: relative;
 }
+
+.o-profile p {
+  font-size: 0.9rem;
+}
+main h4 {
+  text-transform: uppercase;
+  border-bottom: 1px dotted currentColor;
+}
+
 @media screen and (max-width: 32.438rem) {
   .o-profile {
     margin-bottom: var(--gap_half);
