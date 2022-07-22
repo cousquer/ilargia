@@ -234,9 +234,11 @@ abbr[data-title] {
   border-bottom: 1px dotted currentColor;
   position: relative;
   cursor: help;
+  letter-spacing: -0.1rem;
 }
 abbr[data-title]:before {
   content: attr(data-title);
+  letter-spacing: 0.02rem;
   background: black;
   border-radius: 2px;
   color: #fff;
