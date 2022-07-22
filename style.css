@@ -32,7 +32,17 @@ html {
   box-sizing: inherit;
 }
 
+.moon, .moon__svg, .container__base, .container, .alpha-container, .o-grid__area-01  {
+   
+  transform: scale(80%);
+}
+.container__base   {
+   transition-property:  transform-origin;
+   transition-duration: 0.5s;
+   transition-timing-function: ease;
+   transform-origin: 239.5px 239.5px 0px !important; 
 
+}
 
 .alpha-container {
   display: flex;
@@ -104,6 +114,8 @@ html {
     -ms-animation: anim 3s linear forwards 5s;
     animation: anim 3s linear forwards 5s;
 }
+
+
 
 @keyframes anim {
   0%  {opacity:0;}
@@ -224,10 +236,7 @@ abbr {
   
   }
   
-  .moon, .moon__svg, .container__base, .container, .alpha-container, .o-grid__area-01  {
-   
-    transform: scale(80%);
-  }
+ 
   
   .o-grid__area-01 {
     left: -.2rem;
