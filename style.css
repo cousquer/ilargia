@@ -37,6 +37,9 @@ html {
   transform: scale(80%);
 }
 .container__base   {
+   transition-property:  transform-origin;
+   transition-duration: 0.5s;
+   transition-timing-function: ease;
    transform-origin: 239.5px 239.5px 0px !important; 
 
 }
@@ -214,7 +217,47 @@ h1, abbr, .c-heading--02, label[for="widget7"] > span{
   background-color: var(--color_mag);
 }
 
-abbr {
+abbr[data-title] {
+  border-bottom: 1px dotted currentColor;
+  position: relative;
+}
+abbr[data-title]:before {
+  content: attr(data-title);
+  background: black;
+  border-radius: 2px;
+  color: #fff;
+  font-size: 14px;
+  position: absolute;
+  top: -100%;
+  right: auto;
+  bottom: auto;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  padding: 2px 6px;
+  transition: opacity 0.2s ease-in-out, top 0.3s ease-in-out;
+  white-space: nowrap;
+  z-index: 2;
+}
+abbr[data-title]:hover:before, abbr[data-title]:focus:before {
+  opacity: 1;
+  top: -150%;
+}
+abbr[data-title]:hover:after, abbr[data-title]:focus:after {
+  content: "";
+  background: black;
+  height: 10px;
+  position: absolute;
+  top: -10px;
+  right: auto;
+  bottom: auto;
+  left: 50%;
+  transform: rotate(45deg) translateX(-50%);
+  width: 10px;
+  z-index: 1;
+}
+
+.o-profile__inner abbr {
   color:black;
   background-color: white;
 }
@@ -623,6 +666,6 @@ legend {
 input:focus-visible, a:focus-visible, button:focus-visible, textarea:focus-visible {
   transition: all 0.6s;
   transition-timing-function: ease;
-  border: 3px #e90000 dashed !important;
+  border: 3px #0000e9 dashed !important;
   padding: 1rem;
 }
