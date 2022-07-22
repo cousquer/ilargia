@@ -298,7 +298,7 @@ abbr[data-title]:hover:after, abbr[data-title]:focus:after, label:focus-within a
     left: -.2rem;
   }
   .o-grid {
-    --minmax: 15rem;
+    --minmax: 19rem;
   }
 
   .ilargia__img{
