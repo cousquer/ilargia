@@ -430,6 +430,7 @@ abbr[data-title]:hover:after, abbr[data-title]:focus:after {
 }
 .o-media__img {
   width: 100%;
+  display: none;
 }
 .o-media__caption {
   font-family: "Open Sans", sans-serif;
