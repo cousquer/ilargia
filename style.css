@@ -255,11 +255,11 @@ abbr[data-title]:before {
   white-space: nowrap;
   z-index: 2;
 }
-abbr[data-title]:hover:before, abbr[data-title]:focus:before {
+abbr[data-title]:hover:before, abbr[data-title]:focus:before,label:focus-within abbr[data-title]:before {
   opacity: 1;
   top: -150%;
 }
-abbr[data-title]:hover:after, abbr[data-title]:focus:after {
+abbr[data-title]:hover:after, abbr[data-title]:focus:after, label:focus-within abbr[data-title]: {
   content: "";
   background: black;
   height: 10px;
