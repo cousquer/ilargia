@@ -370,7 +370,7 @@ abbr[data-title]:hover:after, abbr[data-title]:focus:after, label:focus-within a
 
 @media screen and (min-width: 60.625rem) {
   .o-grid {
-    --minmax: 15rem;
+    --minmax: 19rem;
     grid-template-areas: ". header header header ." ". subheader subheader subheader ." ". content content profile ." ". work-sample work-sample profile ." ". footer footer footer .";
   }
 }
