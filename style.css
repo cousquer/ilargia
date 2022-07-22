@@ -387,6 +387,7 @@ abbr[data-title]:hover:after, abbr[data-title]:focus:after {
   border-bottom: var(--border_md) solid var(--color_ink);
   padding: calc(var(--gap_half) / 4) 0;
   position: relative;
+  z-index: 100;
 }
 .o-header:before {
   width: 100%;
