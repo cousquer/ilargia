@@ -175,7 +175,10 @@ p:last-child {
 .u-txt-center {
   text-align: center;
 }
-
+.top-5 {
+  margin-top: -4rem;
+  position:relative;
+}
 .c-heading {
   font-weight: normal;
   margin: 0;
@@ -196,6 +199,8 @@ p:last-child {
   font-size: 1.5rem;
   line-height: 1.7;
   margin-top: -1.8rem;
+  background-color: var(--color_mag);
+  color: var(--color_ink);
 }
 @media screen and (min-width: 32.5rem) {
   .c-heading--01 {
@@ -243,11 +248,6 @@ abbr[data-title]:hover:before, abbr[data-title]:focus:before {
   opacity: 1;
   top: -150%;
 }
-
-abbr {
-  cursor: help;
-}
-
 abbr[data-title]:hover:after, abbr[data-title]:focus:after {
   content: "";
   background: black;
@@ -435,10 +435,7 @@ abbr[data-title]:hover:after, abbr[data-title]:focus:after {
 }
 .o-media__img {
   width: 100%;
-}
-.o-profile .o-media__img {
-  width: 100%;
-  display: none;
+  display:none;
 }
 .o-media__caption {
   font-family: "Open Sans", sans-serif;
