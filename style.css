@@ -31,15 +31,7 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
-body:before{
-  display: block;
-  content: " ";
-  height:20px;
-  top: 0;
-  background:rgba(38,38,38,0.8);
-  position:-webkit-sticky;
-  position:sticky;
-}
+
 
 .moon, .moon__svg, .container__base, .container, .alpha-container, .o-grid__area-01  {
    
