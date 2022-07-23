@@ -31,7 +31,7 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
-html:before{
+body:before{
   display: block;
   content: " ";
   height:20px;
