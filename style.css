@@ -539,8 +539,8 @@ label, button {
 }
 
 button {
-  background-color: #4C5B72;
-  border: none;
+  background-color: #223046;
+  border: 1px solid #fff;
   border-radius: 30px;
   box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.3);
   color: #fff;
@@ -552,7 +552,7 @@ button.icon-only {
   padding: 12px 14px;
 }
 button:hover, button:focus {
-  background-color: #4E7D57;
+  background-color: #145420;
   cursor: pointer;
   outline: 4px solid transparent;
 }
