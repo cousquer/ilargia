@@ -455,7 +455,9 @@ main h4 {
   background-color: var(--color_base);
 }
 .o-media__img {
-  width: 100%;
+	width: 100%;
+	aspect-ratio: 16/9;
+	height: auto;
 }
 
 .o-profile .o-media__img {
